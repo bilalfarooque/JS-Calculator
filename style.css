@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100vw;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    background-color:#e3f9ff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.2), 5px 5px 5px rgba(0,0,0,0.5);
+    font-size: 18px;
+    color: white;
+    background-color: #3a4452;
+}
+
+.display-block{
+    background-color: #3a4452;
+    display: flex;
+    justify-content: end;
+    margin: 15px 0;
+    
+}
+
+.display-block input{
+    flex: 1;
+    text-align: end;
+    padding-right: 15px;
+    font-size: 24px;
+}
+
+#equalTo{
+    width: 45%;
+}
+
+.operator{
+    color: yellow;
+}
