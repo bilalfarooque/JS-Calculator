@@ -16,7 +16,7 @@
                 <input type="text" name="display" id="display" placeholder="0">
             </div>
             <div class="row1">
-                <input type="button" value="CE" onclick= removeLastCharacter()  class="operator"> 
+                <input type="button" value="CE" class="operator" onclick= removeLastCharacter()> 
                 <input type="button" value="C" onclick="display.value = ''" class="operator">
                 <input type="button" value="." onclick="display.value += '.'">
                 <input type="button" value="/" onclick="display.value += '/'" class="operator">
@@ -42,7 +42,7 @@
             <div class="row5">
                 <input type="button" value="00" onclick="display.value += '00'">
                 <input type="button" value="0" onclick="display.value += '0'">
-                <input type="button" value="=" id="equalTo" class="operator">
+                <input type="button" value="=" id="equalTo" class="operator" onclick= result()>
             </div>
         </div>
     </div>

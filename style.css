@@ -32,10 +32,10 @@
     margin: 5px;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.2), 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: -8px -8px 15px rgba(99, 96, 96, 0.2), 5px 5px 5px rgba(0,0,0,0.5);
     font-size: 18px;
     color: white;
-    background-color: #3a4452;
+    background-color: #2f3236;
 }
 
 .display-block{
@@ -57,6 +57,6 @@
     width: 45%;
 }
 
-.operator{
-    color: yellow;
+input.operator{
+    background-color: rgb(255, 162, 0);
 }
