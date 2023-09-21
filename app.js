@@ -16,10 +16,9 @@ function result() {
     else if (lastDigit == "*"){
         display.value = Math.pow(lastValue,2);
       }
-
-
-
-
+    else if (lastDigit == "-"){
+        display.value = lastValue-lastValue;
+      } 
     display.value = eval(display.value);
   }
 }

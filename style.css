@@ -60,3 +60,9 @@
 input.operator{
     background-color: rgb(255, 162, 0);
 }
+
+.main input:hover{
+    background-color:#7b8c9d ;
+    transform: scale(1.1);
+
+}
